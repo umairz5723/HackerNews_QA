@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {
+  background-color: #f60;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: black;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.article-list-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.article-list {
+  list-style: none;
+  padding: 0;
+}
+
+.article-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.article-number {
+  flex: 0 0 30px; /* Fixed width for the number */
+  text-align: center;
+  font-weight: bold;
+  margin-right: 10px;
+  background-color: #ffe4d0; /* Light orange background */
+  padding: 5px; /* Optional: padding to make the number stand out more */
+  border-radius: 5px; /* Optional: rounded corners */
+}
+
+.article-content {
+  flex: 1;
+}
+
+.article-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.time-elapsed {
+  font-size: 0.9em;
+  color: #888; /* Gray text color for time */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Dark text color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.container {
+  max-width: 800px; /* Optional: limit the maximum width */
+}
+
+h1 {
+  text-align: center;
+  color: #ff6600; /* Hacker News orange */
+}
+
+h2 {
+  color: #ff6600; /* Hacker News orange */
+  border-bottom: 2px solid #ff6600;
+  padding-bottom: 10px;
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff; /* White background for list items */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
