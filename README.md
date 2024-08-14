@@ -61,7 +61,7 @@ $ cd QA-WOLF\frontend
 
 Run: 
 ```sh 
-npm start
+$ npm start
 ```
 
 This will start the React frontend, which displays the 100 most recent articles, separated into those within the hour and those that are an hour or older.
